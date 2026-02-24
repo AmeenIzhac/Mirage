@@ -146,6 +146,14 @@ python src/test.py \
     --cache_dir PATH_TO_HF_CACHE
 ```
 
+```bash
+python src/test-comfort.py \
+    --model Qwen/Qwen2.5-VL-7B-Instruct --epochs 15 \
+    --task vsp-spatial-planning \
+    --load_model_path Miiche/vsp_spatial_planning_direct_sft  \
+    --cache_dir PATH_TO_HF_CACHE
+```
+
 
 ## Citation
 If you find our work useful, please consider citing: 
