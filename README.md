@@ -106,7 +106,7 @@ The base model (Qwen2.5-VL) will be automatically downloaded in `./cache`, speci
 **Training Stage 1**
 ```bash
 python src/main.py \
-    --model Qwen/Qwen2.5-VL-7B-Instruct --epochs 15 \
+    --model Qwen/Qwen2.5-VL-3B-Instruct --epochs 15 \
     --task vsp-spatial-planning \
     --latent_size 4 \
     --gradient_accumulation_steps 8 \
@@ -120,7 +120,7 @@ python src/main.py \
 **Training Stage 2**
 ```bash
 python src/main.py \
-    --model Qwen/Qwen2.5-VL-7B-Instruct --epochs 15 \
+    --model Qwen/Qwen2.5-VL-3B-Instruct --epochs 15 \
     --task vsp-spatial-planning \
     --latent_size 4 \
     --gradient_accumulation_steps 1 \
