@@ -65,7 +65,7 @@ Create a conda environment and install the required packages:
 conda create -n mirage python=3.10
 conda activate mirage
 
-git clone https://github.com/UMass-Embodied-AGI/Mirage.git
+git clone https://github.com/AmeenIzhac/Mirage.git
 cd Mirage
 pip install -r requirements.txt
 pip install -e ./transformers/.
