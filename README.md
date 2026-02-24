@@ -139,7 +139,7 @@ We will continue updating the model weights and scaling the dataset to further i
 
 ```bash
 python src/test.py \
-    --model Qwen/Qwen2.5-VL-7B-Instruct --epochs 15 \
+    --model Qwen/Qwen2.5-VL-3B-Instruct --epochs 15 \
     --task vsp-spatial-planning \
     --data_path ./data/vsp_spatial_planning/test_direct.jsonl \
     --load_model_path Miiche/vsp_spatial_planning_direct_sft  \
@@ -148,7 +148,7 @@ python src/test.py \
 
 ```bash
 python src/test-comfort.py \
-    --model Qwen/Qwen2.5-VL-7B-Instruct --epochs 15 \
+    --model Qwen/Qwen2.5-VL-3B-Instruct --epochs 15 \
     --task vsp-spatial-planning \
     --load_model_path Miiche/vsp_spatial_planning_direct_sft  \
     --cache_dir PATH_TO_HF_CACHE
